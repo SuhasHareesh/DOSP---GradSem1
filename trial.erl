@@ -17,3 +17,5 @@ list_max([Head|Rest], Result_so_far) when Head > Result_so_far ->
 
 list_max([Head|Rest], Result_so_far)  ->
     list_max(Rest, Result_so_far).
+
+%Commenting just to check
